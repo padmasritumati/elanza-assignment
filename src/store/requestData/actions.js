@@ -1,6 +1,5 @@
 export const ADDREQUEST = "ADDREQUEST";
-export const UPDATEREQUEST="UPDATEREQUEST"
-
+export const UPDATEREQUEST = "UPDATEREQUEST";
 
 export const updateRequest = (requestData) => ({
   type: UPDATEREQUEST,
@@ -12,16 +11,14 @@ export const addRequest = (requestData) => ({
   payload: requestData,
 });
 
-
 export const setRequest = (
   name,
+  careType,
   startDate,
   endDate,
-  careType,
   additionalInfo,
-  status,
+  status
 ) => {
-  
   return (dispatch) =>
     dispatch(
       addRequest({
@@ -35,6 +32,6 @@ export const setRequest = (
     );
 };
 
-export const filterRequestData=(filteredData)=>{
-  return (dispatch)=>dispatch(updateRequest(filteredData))
-}
+export const filterRequestData = (filteredData) => {
+  return (dispatch) => dispatch(updateRequest(filteredData));
+};
