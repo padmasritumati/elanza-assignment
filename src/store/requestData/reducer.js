@@ -44,8 +44,12 @@ export default function reducer(state = initialState, action) {
       console.log("from reducer", state, action.payload);
       return { ...state, requestData: [...state.requestData, action.payload] };
     }
+    case "UPDATEREQUEST": {
+     
+      return { ...state ,requestData:[...action.payload]};
+    }
     default: {
-      return {...state};
+      return { ...state };
     }
   }
 }
