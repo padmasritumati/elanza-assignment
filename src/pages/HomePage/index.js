@@ -22,7 +22,7 @@ export default function HomePage() {
           {requestData.requestData.map((request, i) => {
             return (
               <Card key={i} className="mt-5">
-                <Card.Header>{request.name}</Card.Header>
+                <Card.Header className="card_header">{request.name}</Card.Header>
                 <Card.Body>
                   <Card.Title>{request.careType}</Card.Title>
                   <Card.Text>

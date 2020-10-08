@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <div>
       <h1 className="header"> add a new request</h1>
-      <Container as={Col} md={{ span: 5, offset: 3 }} className="mt-5">
+      <Container as={Col} md={{ span: 4, offset: 4 }} className="container_details mt-5">
         <Form.Row>
           <Col>
             {" "}
@@ -102,10 +102,11 @@ export default function HomePage() {
             </Form.Group>
           </Col>
         </Form.Row>
-        <Link to="/">
+        <Form.Row className="justify-content-md-center mt-3"> <Link to="/" >
           {" "}
           <Button variant="dark" onClick={handler}>Submit</Button>
-        </Link>
+        </Link></Form.Row>
+       
       </Container>
     </div>
   );

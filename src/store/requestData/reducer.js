@@ -1,39 +1,39 @@
 const initialState = {
   requestData: [
     {
-      name: "Jone",
-      startDate: "8-10-2020",
-      endDate: "9-10-2020",
+      name: "Oliver",
+      startDate: "10-20-2020",
+      endDate: "10-22-2020",
       careType: "Household",
       additionalInfo:
-        "i have some health issues,i wanted who can take good care of me",
+        "My health condition is not good,i wanted someone who can take good care of me",
       status: "open",
     },
     {
-      name: "Max",
-      startDate: "8-10-2020",
-      endDate: "9-10-2020",
+      name: "David",
+      startDate: "10-20-2020",
+      endDate: "10-22-2020",
       careType: "Household",
       additionalInfo:
-        "i have some health issues,i wanted who can take good care of me",
+      "My health condition is not good,i wanted someone who can take good care of me",
       status: "open",
     },
     {
-      name: "Tom",
-      startDate: "8-10-2020",
-      endDate: "9-10-2020",
+      name: "Luke",
+      startDate: "10-20-2020",
+      endDate: "10-22-2020",
       careType: "Household",
       additionalInfo:
-        "i have some health issues,i wanted who can take good care of me",
+      "My health condition is not good,i wanted someone who can take good care of me",
       status: "open",
     },
     {
-      name: "Tommy",
-      startDate: "8-10-2020",
-      endDate: "9-10-2020",
+      name: "James",
+      startDate: "10-20-2020",
+      endDate: "10-22-2020",
       careType: "Household",
       additionalInfo:
-        "i have some health issues,i wanted who can take good care of me",
+      "My health condition is not good,i wanted someone who can take good care of me",
       status: "open",
     },
   ],
