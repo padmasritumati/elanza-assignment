@@ -21,7 +21,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <h1>new request</h1>
+      <h1 className="header"> add a new request</h1>
       <Container as={Col} md={{ span: 5, offset: 3 }} className="mt-5">
         <Form.Row>
           <Col>
@@ -104,7 +104,7 @@ export default function HomePage() {
         </Form.Row>
         <Link to="/">
           {" "}
-          <Button onClick={handler}>Submit</Button>
+          <Button variant="dark" onClick={handler}>Submit</Button>
         </Link>
       </Container>
     </div>

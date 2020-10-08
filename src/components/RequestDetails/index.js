@@ -14,6 +14,7 @@ export default function RequestDetais() {
   console.log(detailsOfRequest);
   return (
     <div>
+      <h1 className="header">request detailed page</h1>
       <Container as={Col} md={{ span: 6, offset: 3 }} className="mt-5">
         <h1>{detailsOfRequest.name}</h1>
         <h3>Start date: {detailsOfRequest.startDate}</h3>
@@ -22,7 +23,7 @@ export default function RequestDetais() {
         <h3>status: {detailsOfRequest.status}</h3>
         <Link to="/">
           {" "}
-          <Button>Accept Request</Button>
+          <Button variant="dark">Accept Request</Button>
         </Link>
       </Container>
     </div>
